@@ -1,0 +1,187 @@
+.main-container {
+    max-width: 980px;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.main-container .top-container {
+    width: 950px;
+    height: 70px;
+    margin-left: 28px;
+    background-color: #FFF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0 ,0, 0.09);
+    border-radius: 4px;
+    display: flex;
+    align-items:center;  
+}
+
+.main-container .top-container strong {
+    font-size: 23px;
+    padding-top: 8px;
+    padding-left: 18px;
+    color:#333;
+    align-items: center;   
+}
+
+.main-container .top-container img  {
+    width: 140px;
+    height: auto;
+    display: flex;
+    margin-left: 20px;
+}
+
+.main-container .top-container .avatarImg {
+    border-radius: 50%;
+    border-width: 30px;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #FFF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0 ,0, 0.09);
+}
+
+.main-container .userWelcome {
+    margin-left: 20px;
+    font-size: 30px;
+    top: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.main-container .userName {
+    font-size: 27px;
+    font-weight: bold;
+    color: #333;
+}
+
+.main-container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.main-container ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container ul li img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.main-container ul li footer {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 15px 20px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+
+.main-container ul li footer strong {
+    font-size: 16px;
+    color: #333;    
+}
+
+.main-container ul li footer p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.main-container ul li .buttons {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.main-container ul li .buttons button {
+    height: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0 ,0, 0.05);
+    border: 0;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.main-container ul li .buttons button:hover img { 
+    transform: translateY(-3px);
+    transition: all 0.2s;
+}
+
+.main-container .empty {
+    margin-top: 20px;
+    margin-left: 28px;
+    border-radius: 4px;
+    width: 950px;
+    height: 800px;
+    background-color: #FFF;
+    border-width: 30px;
+    border: 8px solid #FFF;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0 ,0, 0.09);
+}
+
+.main-container .empty img {
+   margin-top: 200px;
+   width: 300px;
+   height: 300px;
+}
+
+.main-container .empty strong {
+   margin-top: 10px;
+   font-size: 28px;
+   display: flex;
+   margin-left: 324px;
+   color: #999;
+}
+
+.match-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);;
+}
+
+.match-container .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    margin: 30px 0;
+}
+
+.match-container strong {
+    font-size: 32px;
+    color: #FFF;
+}
+
+.match-container p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 400px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.match-container button {
+    border: 0;
+    background: none;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer; 
+}
