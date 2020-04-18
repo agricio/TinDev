@@ -3,8 +3,8 @@
  </h1>
  
 <p align="center">
-  <img alt="GitHub language count  " src="https://img.shields.io/github/languages/count/radaelilucca/findevs">
-  <a href="https://github.com/Rocketseat/semana-omnistack-11/commits/master">
+  <img alt="GitHub language count  " src="https://img.shields.io/github/languages/count/radaelilucca/tindev">
+  <a href="https://github.com/Rocketseat/semana-omnistack-8/commits/master">
   </a>
 
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -26,7 +26,7 @@
 This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/) 
-- [Sqlite3](https://www.sqlite.org/)
+- [mogoDB](https://www.mongodb.com)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
@@ -51,12 +51,13 @@ This App uses NodeJS in back-end and a relacional database SqLite to share the d
     <img src="https://raw.githubusercontent.com/agricio/TinDev/master/assets_git/web01.png" width=80% />
     <img src="https://raw.githubusercontent.com/agricio/TinDev/master/assets_git/web02.png" width=80% />
     <img src="https://raw.githubusercontent.com/agricio/TinDev/master/assets_git/web03.png" width=80% />
+    <img src="https://raw.githubusercontent.com/agricio/TinDev/master/assets_git/web04.png" width=80% />
   </p>
  </h3>
 
 ## 👨‍🏫 Run The Project
 
-You need to execute the commands for install the project dependencies. This is necessary to run the applications: The Project has 3 folders (back-end, front-end and mobile-expo). To work the project, it requires to install the node dependencies this way
+You need to execute the commands for install the project dependencies. This is necessary to run the applications: The Project has 3 folders (back-end, front-end and mobile). To work the project, it requires to install the node dependencies this way
 
 <h4> Use NPM: </h4>
 
@@ -74,28 +75,24 @@ You need to execute the commands for install the project dependencies. This is n
 <h4> Front-end: </h4>
 
 ````
-<front-end fonder>: yarn start src/app.js
+<front-end fonder>: yarn start src/index.js
 ````
 
 <h4> Back-end: </h4>
 
 ````
-<back-end fonder>: node src/index.js
+<back-end fonder>: node src/server.js
 ````
 
-<h4> Mobile-expo: </h4>
+<h4> Mobile: </h4>
 
 ````
-<mobile-expo fonder>: expo start
+<mobile-expo fonder>: react-native rum-android
 ````
 
 <h5> 
 For testing, use a physical device, or emulators like the XCode Simulator for iOS, or AVD from AndroidStudio for Android. 
 </h5>
-
-## 🏗️ Build the Mobile Aplication
-  
-For build the aplication in APK or IPA, it is necessary fill correctly the file App.Json. Consult the instructions in <a href="https://docs.expo.io/versions/latest/distribution/building-standalone-apps/">Expo documentation </a> for more informations.
 
 ## :memo: Licence
 
