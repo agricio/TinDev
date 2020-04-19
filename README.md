@@ -32,7 +32,7 @@ This project was developed with the using the technologies:
 
 ## 💻 The Project
 
-The TinDev is a micro-project, builded to clone some functions of the app Tinder using the Github API to register Devs in the data base. The Sistem have the functions looks like: register, acess, choise bettwen like or dislike and the match in the two plataforms front end and mobile. The sistem use back end node with mongoDB to the communication API was used json. In the front end ReactJS and React-Native in the Mobile using socket-io in the real-time connection bettwen the plataforms. 
+  The TinDev is a micro-project, builded to clone some functions of the app Tinder using the Github API to register Devs in the data base. The Sistem have the functions looks like: register, acess, choise bettwen like or dislike and the match in the two plataforms Front End and Mobile. The sistem use Back End node with mongoDB to the Data Base to the communication API was used JSON. In the Front End ReactJS and React-Native in the Mobile using Socket-io in the real-time connection bettwen the plataforms. 
 
 
 <h3> 📱 Images of Project Mobile </br> </br>
