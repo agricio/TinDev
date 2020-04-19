@@ -23,19 +23,16 @@
  
 ## :rocket: Tecnologies
 
-This project was developed with the following technologies:
+This project was developed with the using the technologies:
 
 - [Node.js](https://nodejs.org/en/) 
 - [mogoDB](https://www.mongodb.com)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
 
 ## 💻 The Project
 
-Be the hero is a project that will connect people that can help and donate for OGN's. The application works when a ONG signs up: it will register and spread cases in the system, so people can see it on Web and mobile app. Perceiving the cases,  each one get ready to help by contacting us by email or whatsapp!
-
-This App uses NodeJS in back-end and a relacional database SqLite to share the data. It also uses json API Rest to comunicate the back-end server with front-end biulded in ReactJS and the mobile app using React-Native and Expo CLI in the develop and runs on any mobile plataforms.    
+The TinDev is a micro-project, builded to clone some functions of the app Tinder using the Github API to register Devs in the data base. The Sistem have the functions looks like: register, acess, choise bettwen like or dislike and the match in the two plataforms front end and mobile. The sistem use back end node with mongoDB to the communication API was used json. In the front end ReactJS and React-Native in the Mobile using socket-io in the real-time connection bettwen the plataforms. 
 
 
 <h3> 📱 Images of Project Mobile </br> </br>
